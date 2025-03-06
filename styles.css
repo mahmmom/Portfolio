@@ -629,3 +629,55 @@ footer .container {
   object-fit: cover;
   border-radius: 50%;
 }
+
+/* Add these new styles */
+.qualifications, .skills-section, .reflections, .resume, .profiles {
+  padding: 100px 0;
+  background-color: white;
+}
+
+.qualification-item, .reflection-item {
+  background: var(--light-color);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.resume .container {
+  text-align: center;
+}
+
+.profiles .social-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Reflections Section */
+.reflections {
+  padding: 100px 0;
+  background-color: white;
+}
+
+.reflections-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.reflection-item {
+  background-color: var(--light-color);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.reflection-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.reflection-item p {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+}
